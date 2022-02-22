@@ -22,12 +22,14 @@ i=0
 res=0
 res1=0
 res2=0
+variable2 = 2
 while i<len(A.deliverables):
     A.deliverables[i]=input('Enter your grade of Deriverable', i+1,':')
     i+=1
 i=0
 while i<len(A.deliverables):
     res=res+A.deliverables[i]
+    variable2+=1
     i+=1
 
 A.project=input("Enter your project mark")
